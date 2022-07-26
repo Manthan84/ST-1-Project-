@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap");
+.sidebar {
+  /* background-color: rgb(207, 204, 204); */
+  width: 100%;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  /* height: 10vh; */
+}
+.sidebar div {
+  padding: 45px;
+  font-size: pixel;
+  /* flex-direction: row; */
+}
+.sidebar div li {
+  list-style: none;
+  font-size: 30px;
+  /* padding: 53px 0; */
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-links li a {
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: orange;
+}
+
+.nav__logo {
+  font-size: 1.2rem;
+  font-family: "Neonderthaw", cursive;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+  padding: 0.5rem;
+}
+
+.nav__logo:hover {
+  color: yellow;
+}
+
+.nav__links {
+  background-color: orange;
+  color: black;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  gap: 2rem;
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+.nav__links > * {
+  padding: 9px 25px;
+  background-color: grey;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button {
+  padding: 9px 25px;
+  background-color: grey;
+  border: none;
+  border-radius: 50px;
+  cusor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: blanchedalmond;
+}
+.main {
+  width: 85vw;
+  height: 48vw;
+  margin: auto;
+}
+.container {
+  display: flex;
+  margin: 40px;
+}
+.infoContainer {
+  background-color: white;
+  height: 60vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devPic img {
+  width: 45.5vh;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 85px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.name {
+  font-size: 70px;
+  font-weight: bold;
+}
+.about {
+  font-size: 50px;
+}
+.moreabout {
+  font-size: 20px;
+  justify-content: space-around;
+}
+.buttons {
+  margin-top: 35px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.cforms {
+  text-align: center;
+  font-size: 30px;
+}
+#images {
+  width: 150px;
+}
+#images1 {
+  width: 110px;
+}
+#js {
+  width: 170px;
+}
+
+.skills {
+  margin: 5%;
+  margin-left: 10%;
+  justify-content: space-around;
+  display: flex;
+}
+#cskills {
+  text-align: center;
+  font-size: 40px;
+  padding: 12px 20px;
+}
+#images:hover{
+  transform: scale(2.2);
+  transition-duration: 0.4s;
+
+}
+#images1:hover{
+  transform: scale(2.2);
+  transition-duration: 0.4s;
+
+}
+#js:hover{
+  transform: scale(2.2);
+  transition-duration: 0.4s;
+
+}
+#abc{
+  text-decoration: none;
+  background-color: gray;
+  color: black;
+}
